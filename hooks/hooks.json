@@ -1,0 +1,14 @@
+{
+  "PreToolUse": [
+    {
+      "matcher": "Edit|Write",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/protect-docs.sh\"",
+          "timeout": 5000
+        }
+      ]
+    }
+  ]
+}

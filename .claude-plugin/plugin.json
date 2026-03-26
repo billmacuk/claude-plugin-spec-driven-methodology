@@ -1,0 +1,10 @@
+{
+  "name": "spec-driven-methodology",
+  "version": "1.0.0",
+  "description": "Spec-driven, inversion-of-control methodology for new projects. Structure first, code second.",
+  "author": {
+    "name": "Bill"
+  },
+  "keywords": ["methodology", "spec-driven", "kickstart", "documentation", "architecture", "inversion-of-control"],
+  "hooks": "./hooks/hooks.json"
+}
