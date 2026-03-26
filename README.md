@@ -98,14 +98,14 @@ CLAUDE.md                  # AI governance (project root)
 
 ```bash
 # From your project root
-git clone https://github.com/billmc-chambers/claude-plugin-spec-driven-methodology \
+git clone https://github.com/billmacuk/claude-plugin-spec-driven-methodology \
   .claude/plugins/claude-plugin-spec-driven-methodology
 ```
 
 **Option 2: Global** (available in all your Claude Code sessions)
 
 ```bash
-git clone https://github.com/billmc-chambers/claude-plugin-spec-driven-methodology \
+git clone https://github.com/billmacuk/claude-plugin-spec-driven-methodology \
   ~/.claude/plugins/claude-plugin-spec-driven-methodology
 ```
 
