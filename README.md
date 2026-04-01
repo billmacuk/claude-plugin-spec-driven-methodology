@@ -94,27 +94,14 @@ CLAUDE.md                  # AI governance (project root)
 
 ## Installation
 
-**Option 1: Per-project** (recommended — keeps the methodology version-controlled with your project)
+Run these two commands in Claude Code:
 
-```bash
-# From your project root
-git clone https://github.com/billmacuk/claude-plugin-spec-driven-methodology \
-  .claude/plugins/claude-plugin-spec-driven-methodology
+```
+/plugin marketplace add billmacuk/claude-plugin-spec-driven-methodology
+/plugin install spec-driven-methodology@billmacuk-plugins
 ```
 
-**Option 2: Global** (available in all your Claude Code sessions)
-
-```bash
-git clone https://github.com/billmacuk/claude-plugin-spec-driven-methodology \
-  ~/.claude/plugins/claude-plugin-spec-driven-methodology
-```
-
-Then enable it in Claude Code:
-
-1. Open Claude Code settings (`/settings` or the settings icon)
-2. Find the plugin in the Plugins section
-3. Enable `spec-driven-methodology`
-4. Run `/kickstart` in your project
+Then run `/kickstart` in your project to get started.
 
 ## Example Session
 
